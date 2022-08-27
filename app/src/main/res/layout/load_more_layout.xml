@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_110sdp"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_6sdp">
+
+    <Button
+        android:id="@+id/btn_load_more_headline"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_190sdp"
+        android:elevation="@dimen/_8sdp"
+        android:scaleType="centerCrop"
+        android:backgroundTint="?colorPrimaryVariant"
+        android:text="@string/lebih_banyak"
+        android:textAlignment="textStart"
+        android:textSize="@dimen/_10ssp"
+        android:textColor="?colorOnPrimary"
+        android:drawableEnd="@drawable/ic_next"
+        app:drawableTint="?colorOnPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize10Percent"
+        tools:ignore="ContentDescription"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Berita.In</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="berita_terbaru">Berita Terbaru</string>
+    <string name="news_title">News Title</string>
+    <string name="news_bookmark">news_bookmark</string>
+    <string name="kategori">Kategori</string>
+    <string name="technology">Teknologi</string>
+    <string name="sports">Olahraga</string>
+    <string name="science">Sains</string>
+    <string name="health">Kesehatan</string>
+    <string name="business">Bisnis</string>
+    <string name="entertainment">Hiburan</string>
+    <string name="date_news" translatable="false">12 Agustus</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lebih_banyak">Lebih Banyak</string>
+    <string name="cari_berita_disini">Cari berita dari seluruh dunia disini!</string>
+    <string name="error_home">Gagal menampilkan data</string>
+    <string name="pengaturan">Pengaturan</string>
+    <string name="beritain_logo">beritain logo</string>
+    <string name="title_activity_masssin">MasssinActivity</string>
+    <string name="title_dashboard">Dashboard</string>
+</resources>

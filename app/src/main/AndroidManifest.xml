@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.fakhrirasyids.beritain">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/beritain_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/beritain_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BeritaIn"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.main.ui.webview.WebviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.main.ui.settings.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.main.ui.home.headlines.HeadlineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.BeritaIn" />
+        <activity
+            android:name=".ui.splash.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.App.Starting">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
