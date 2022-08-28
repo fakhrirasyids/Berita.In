@@ -10,19 +10,19 @@
         android:id="@+id/btn_load_more_headline"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_190sdp"
+        android:backgroundTint="?colorPrimaryVariant"
+        android:drawableEnd="@drawable/ic_next"
         android:elevation="@dimen/_8sdp"
         android:scaleType="centerCrop"
-        android:backgroundTint="?colorPrimaryVariant"
         android:text="@string/lebih_banyak"
         android:textAlignment="textStart"
-        android:textSize="@dimen/_10ssp"
         android:textColor="?colorOnPrimary"
-        android:drawableEnd="@drawable/ic_next"
+        android:textSize="@dimen/_10ssp"
         app:drawableTint="?colorOnPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize10Percent"
-        tools:ignore="ContentDescription"/>
+        tools:ignore="ContentDescription" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

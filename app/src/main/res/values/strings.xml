@@ -24,4 +24,5 @@
     <string name="beritain_logo">beritain logo</string>
     <string name="title_activity_masssin">MasssinActivity</string>
     <string name="title_dashboard">Dashboard</string>
+    <string name="time">time</string>
 </resources>

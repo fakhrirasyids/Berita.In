@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="@dimen/_250sdp"
     android:layout_height="wrap_content"
+    android:background="?colorPrimary"
     android:paddingTop="@dimen/_8sdp"
     android:paddingEnd="@dimen/_16sdp"
-    android:background="?colorPrimary"
     android:paddingBottom="@dimen/_8sdp">
 
 
@@ -42,6 +42,7 @@
         android:layout_height="@dimen/_14sdp"
         android:layout_marginTop="@dimen/_8sdp"
         android:layout_marginBottom="@dimen/_8sdp"
+        android:contentDescription="@string/time"
         android:src="@drawable/ic_time"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_news_title"
